@@ -1,0 +1,10 @@
+name: Proof HTML
+push: true
+workflow_dispatch: active
+jobs: build-run
+build: 4.0.9
+runs-on: ubuntu-latest
+steps: launch-test-publish
+uses: proof of html
+with: ubantu
+directory: root
